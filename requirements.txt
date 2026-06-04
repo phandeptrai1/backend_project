@@ -1,11 +1,15 @@
-SECRET_KEY=replace_me
+Django>=5.0
 
-DEBUG=True
+djangorestframework
 
-ALLOWED_HOSTS=*
+drf-spectacular
 
-DB_NAME=extraction_db
-DB_USER=postgres
-DB_PASSWORD=postgres
-DB_HOST=localhost
-DB_PORT=5432
+psycopg2-binary
+
+python-dotenv
+
+pytest
+
+pytest-django
+
+factory-boy
